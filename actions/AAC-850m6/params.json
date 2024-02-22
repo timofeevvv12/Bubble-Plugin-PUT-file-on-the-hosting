@@ -1,0 +1,32 @@
+{
+    "category": "data (things)",
+    "display": "PUT File",
+    "fields": {
+        "AAD": {
+            "caption": "fileurlremote",
+            "doc": "URL of the remote file",
+            "editor": "DynamicValue",
+            "name": "fileurlremote",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "uploadurlsigned",
+            "doc": "Actual signed upload URL",
+            "editor": "DynamicValue",
+            "name": "uploadurlsigned",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAF": {
+            "caption": "answer",
+            "name": "answer",
+            "rank": 0,
+            "value": "number"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}
